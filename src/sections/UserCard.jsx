@@ -1,20 +1,25 @@
 // UserCard.js
 import React from 'react';
+import userImage from '../assets/image.svg';
+import './UserCard.css';
 
 const UserCard = ({ user }) => {
   return (
     <div className="user-card">
       <div className="user-details">
-        <h3>Name: {user.name}</h3>
-        <p>Email: {user.email}</p>
-        <p>Category: {user.category}</p>
-        <p>State: {user.state}</p>
-        <p>Gender: {user.gender}</p>
-        <p>Status: {user.status}</p>
+        <div className="profile__header">
+            <img src={userImage} alt="User's Avater" />
+            <span className='user-info'> {user.name}</span>
+        </div>
+        <p className='user-info email'>{user.email}</p>
+        <p className='user-info category'>{user.category}</p>
+        <p className='user-info'>{user.state}</p>
+        <p className='user-info gender'>{user.gender}</p>
+        <p className='user-info status'> {user.status}</p>
       </div>
       <div className="user-actions">
-        <button>Edit</button>
-        <button>Delete</button>
+        <a href='#'>...</a>
+        {/* <button>Delete</button> */}
       </div>
     </div>
   );

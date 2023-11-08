@@ -1,6 +1,18 @@
 .user-categories {
-    display: flex;
+    display: grid;
+    grid-template-columns: 173px 230px 86px 69px 47px 134px 14px;
     justify-content: space-between;
-    margin: 27px 60px 17px 60px;
+
+    text-align: left;
+    /* justify-content: space-between; */
+    margin: 20px 60px
     /* background-color: black; */
+}
+
+.actions {
+    display: inline-block;
+    margin-left: -30px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Manrope';
 }

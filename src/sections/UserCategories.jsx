@@ -40,7 +40,7 @@ function UserCategories() {
 
             <UserCategory category="Status" />
 
-            <UserCategory category="Actions" />
+            <span className='actions'> Actions</span>
         </div>
     )
 }
