@@ -1,0 +1,26 @@
+.filter-section {
+    padding: 15px 22px;
+    /* background-color: orange; */
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border-bottom: 1px solid rgba(45, 55, 64, 0.60);; */
+}
+
+.filters {
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.horizontal__line {
+    height: 0.1px;
+    background: rgba(45, 55, 64, 0.60);
+
+    margin: 0 20px;
+}

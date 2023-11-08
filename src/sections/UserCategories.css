@@ -1,0 +1,6 @@
+.user-categories {
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 60px 17px 60px;
+    /* background-color: black; */
+}

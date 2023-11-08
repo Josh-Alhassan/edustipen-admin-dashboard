@@ -1,0 +1,17 @@
+.export-button {
+    padding: 10px 12px;
+
+    display: flex;
+    gap: 8px;
+
+    background-color: var(--Edustipend-Purple);
+    color: #FFF;
+
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 600;
+
+    outline: none;
+    border: none;
+    border-radius: 12px;
+}
